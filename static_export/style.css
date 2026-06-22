@@ -1,0 +1,33 @@
+/* 
+  Muhammad Awais Portfolio - Custom Style Sheet
+  Designed for Ecommerce Email Marketing Specialist Brand
+
+  COLORS:
+  - Primary Background: #FFFFFF (White)
+  - Secondary Background: #F8FAFC (Light Gray)
+  - Card Background: #FFFFFF
+  - Primary Text: #111827 (Charcoal Black)
+  - Secondary Text: #4B5563 (Slate Gray)
+  - Primary Accent: #2563EB (Professional Blue)
+  - Hover Color: #1D4ED8 (Royal Blue)
+  - Success Color: #10B981 (Emerald Green)
+  - Border Color: #E5E7EB
+  - Footer Background: #0F172A (Dark Navy)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #FFFFFF;
+    color: #111827;
+}
+
+/* Custom Hide Scrollbar classes */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
